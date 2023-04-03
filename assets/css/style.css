@@ -188,9 +188,9 @@ hr {
 }
 
 #circle-cover-bg {
-background: url('../images/ethos-center-image.jpg') no-repeat center center;
-height: 100%;
-border-radius: 50%;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* event times */
@@ -220,3 +220,24 @@ border-radius: 50%;
     color: #fafafa;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
